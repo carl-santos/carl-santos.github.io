@@ -226,6 +226,10 @@ p:last-child { margin-bottom: 0; }
 .offer-list strong { display: block; font-weight: 600; margin-bottom: 2px; }
 .offer-list span { color: var(--muted); font-size: 0.98rem; }
 @media (max-width: 860px) { .offer { grid-template-columns: 1fr; } }
+.offer-tres { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.offer-col > .offer-price { margin: 18px 0 0; padding-top: 14px; border-top: 1px solid var(--rule); color: var(--ink); font-size: 0.92rem; }
+.offer-note { margin-top: clamp(24px, 3vw, 36px); color: var(--muted); max-width: 44rem; }
+@media (max-width: 1000px) { .offer-tres { grid-template-columns: 1fr; } }
 
 /* ---------- Projetos ---------- */
 .project { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: clamp(28px, 5vw, 72px); padding-block: clamp(40px, 6vw, 72px); border-top: 1px solid var(--rule); }
