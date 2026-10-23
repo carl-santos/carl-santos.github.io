@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Carlos Santos · Engenharia de software e IA aplicada</title>
-  <meta name="description" content="Carlos Alberto Santos constrói produtos de software com IA: agentes de atendimento no WhatsApp, SaaS multi-tenant e automação para pequenos e médios negócios.">
+  <title>Carlos Santos · Engenheiro de IA aplicada</title>
+  <meta name="description" content="Carlos Alberto Santos coloca IA em produção com avaliação, segurança e LGPD: revisão de segurança para SaaS em Supabase, engenharia de IA sob demanda e atendimento por IA para clínicas e escritórios.">
   <meta name="author" content="Carlos Alberto Santos">
   <meta name="theme-color" content="#f3f4f0" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#111714" media="(prefers-color-scheme: dark)">
 
   <meta property="og:type" content="profile">
   <meta property="og:locale" content="pt_BR">
-  <meta property="og:title" content="Carlos Santos · Engenharia de software e IA aplicada">
-  <meta property="og:description" content="Produtos de IA que atendem clientes, organizam operações e respeitam os dados de quem usa.">
+  <meta property="og:title" content="Carlos Santos · Engenheiro de IA aplicada">
+  <meta property="og:description" content="Coloco IA em produção com avaliação, segurança e LGPD, do banco de dados ao WhatsApp.">
   <meta property="og:url" content="https://carl-santos.github.io/">
   <meta property="og:image" content="https://carl-santos.github.io/assets/og.png">
   <link rel="canonical" href="https://carl-santos.github.io/">
@@ -33,11 +33,11 @@
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Carlos Alberto Santos",
-    "jobTitle": "Engenheiro de software e IA",
+    "jobTitle": "Engenheiro de IA aplicada",
     "address": { "@type": "PostalAddress", "addressLocality": "União da Vitória", "addressRegion": "PR", "addressCountry": "BR" },
     "email": "mailto:cal.santos@yahoo.com.br",
     "sameAs": ["https://www.linkedin.com/in/carl-alberto", "https://github.com/carl-santos"],
-    "knowsAbout": ["Inteligência artificial", "Machine Learning", "Agentes de IA", "RAG", "Engenharia de software", "SaaS multi-tenant", "LGPD"]
+    "knowsAbout": ["Inteligência artificial", "Machine Learning", "Agentes de IA", "RAG", "Avaliação de agentes", "Engenharia de software", "SaaS multi-tenant", "Supabase", "Row Level Security", "Segurança de aplicações", "LGPD"]
   }
   </script>
 </head>
@@ -48,6 +48,7 @@
     <div class="wrap">
       <a class="wordmark" href="#topo">Carlos Santos</a>
       <nav class="nav" aria-label="Seções">
+        <a class="nav-link" href="#servicos">Serviços</a>
         <a class="nav-link" href="#projetos">Projetos</a>
         <a class="nav-link" href="#trajetoria">Trajetória</a>
         <a class="nav-link" href="#formacao">Formação</a>
@@ -66,17 +67,17 @@
     <section class="hero" aria-labelledby="titulo">
       <div class="wrap hero-grid">
         <div class="hero-intro">
-          <p class="hero-name reveal"><span class="status-dot" aria-hidden="true"></span>Carlos Alberto Santos, aberto a projetos e a conversas sobre vagas</p>
-          <h1 id="titulo" class="reveal">Construo produtos de IA que atendem clientes, organizam operações e respeitam os dados de quem usa.</h1>
-          <p class="hero-lede reveal">Sou engenheiro de software em formação final e estudo inteligência artificial desde 2018. Há 14 anos trabalho na Justiça do Trabalho, onde prazo, cálculo e documento não admitem improviso. Levo esse rigor para os sistemas que desenho e construo de ponta a ponta, do banco de dados ao atendimento no WhatsApp.</p>
+          <p class="hero-name reveal"><span class="status-dot" aria-hidden="true"></span>Carlos Alberto Santos · Engenheiro de IA aplicada · União da Vitória, PR</p>
+          <h1 id="titulo" class="reveal">Coloco IA em produção com avaliação, segurança e LGPD, do banco de dados ao WhatsApp.</h1>
+          <p class="hero-lede reveal">Construo e mantenho sistemas com modelos de linguagem e de imagem que atendem clientes, fecham contratos e organizam operações, e provo que eles funcionam: avaliação automatizada no CI, custo por chamada medido, limites que a regulação exige escritos em código. Há 14 anos trabalho na Justiça do Trabalho, onde prazo, cálculo e documento não admitem improviso. Levo isso para cada sistema que desenho.</p>
           <div class="hero-actions reveal">
             <a class="btn btn-primary" href="#projetos">Ver projetos</a>
             <a class="btn btn-ghost" href="#contato">Falar comigo</a>
           </div>
           <dl class="hero-facts reveal">
-            <div><dt>Formação</dt><dd>Engenharia de Software, conclusão em 2027</dd></div>
-            <div><dt>Em IA desde 2018</dt><dd>2 especializações e 6 certificações</dd></div>
-            <div><dt>Base</dt><dd>União da Vitória, Paraná</dd></div>
+            <div><dt>Estimador em produção</dt><dd>2,55 pontos percentuais de erro no holdout temporal, com intervalo de incerteza calibrado</dd></div>
+            <div><dt>Mensagens resolvidas sem chamar a IA</dt><dd>Cerca de 60%, por um roteador determinístico; qualquer erro dele reprova a suíte</dd></div>
+            <div><dt>Auditoria de segurança, out/2026</dt><dd>Zero críticos na plataforma de atendimento; 4 outros produtos corrigidos com migration e teste</dd></div>
           </dl>
         </div>
 
@@ -209,33 +210,47 @@
     </section>
 
     <!-- Serviços -->
-    <section class="section" aria-labelledby="ajuda-titulo">
+    <section class="section" id="servicos" aria-labelledby="ajuda-titulo">
       <div class="wrap">
         <div class="section-head">
           <h2 id="ajuda-titulo">Como posso ajudar</h2>
-          <p>Trabalho com dois tipos de parceiro: negócios que querem parar de perder tempo e cliente, e times de tecnologia que precisam de alguém que entregue um produto inteiro com IA.</p>
+          <p>Trabalho em três formatos, todos com escopo e preço fechados antes de começar. Atendo em horário combinado, com prazo declarado.</p>
         </div>
 
-        <div class="offer">
+        <div class="offer offer-tres">
           <div class="offer-col">
-            <h3>Para empresas e clínicas</h3>
-            <p>Escritórios de contabilidade, advocacia, imobiliárias e clínicas que atendem pelo WhatsApp e sentem o custo de cada mensagem sem resposta.</p>
+            <h3>Revisão de segurança para SaaS em Supabase</h3>
+            <p>Para quem construiu o produto com IA (Lovable, Bolt, Cursor) e já tem cliente pagando.</p>
             <ul class="offer-list">
-              <li><strong>Diagnóstico</strong><span>Mapeio onde o atendimento e a rotina perdem tempo e dinheiro antes de propor qualquer ferramenta.</span></li>
-              <li><strong>Assistente inteligente</strong><span>Um agente que responde no WhatsApp e no site com base nos documentos do seu negócio, marca horários e chama sua equipe quando não deve decidir sozinho.</span></li>
-              <li><strong>Automação inteligente</strong><span>Follow-up, lembretes, qualificação de contatos e tarefas repetitivas rodando sozinhos, com aprovação humana onde a ação é sensível.</span></li>
+              <li><strong>Diagnóstico em 5 dias úteis</strong><span>Você sabe se um usuário consegue virar administrador, ler dados de outro cliente ou achar sua chave no GitHub, e recebe o plano para fechar cada buraco.</span></li>
+              <li><strong>Correção dos críticos</strong><span>Em PR, com migration e teste automatizado que fica no seu repositório e prova a falha e a correção.</span></li>
+              <li><strong>Guarda mensal opcional</strong><span>Revisão de cada mudança de schema e de policy, e aviso quando algo abre de novo.</span></li>
             </ul>
+            <p class="offer-price">Diagnóstico com escopo e prazo fechados · Correção cotada sobre o diagnóstico</p>
           </div>
           <div class="offer-col">
-            <h3>Para times de tecnologia</h3>
-            <p>Produtos com IA do schema ao deploy, com o cuidado de quem passou anos lidando com dado sensível e prazo legal.</p>
+            <h3>Engenharia de IA sob demanda</h3>
+            <p>Para times que já têm produto e precisam de RAG, agentes, avaliação ou guardrails funcionando de verdade.</p>
             <ul class="offer-list">
-              <li><strong>Produto de ponta a ponta</strong><span>Modelagem, API, interface, pagamentos, deploy e monitoramento, com documentação que outra pessoa consegue seguir.</span></li>
-              <li><strong>IA aplicada com critério</strong><span>RAG com pgvector, roteamento de agentes, avaliações automatizadas e custo por chamada sob controle.</span></li>
-              <li><strong>Multi-cliente e LGPD desde o banco</strong><span>Isolamento por Row Level Security no Postgres, trilha de auditoria, anonimização e exportação de dados do titular.</span></li>
+              <li><strong>Golden set e limiar derivado do dado</strong><span>A recuperação é medida contra perguntas reais do seu domínio, e o corte de confiança sai do dado, não de palpite.</span></li>
+              <li><strong>Custo por chamada medido</strong><span>Cada rota sabe quanto custa, e o roteamento resolve o que não precisa de modelo antes de chamá-lo.</span></li>
+              <li><strong>Transbordo para humano com mecanismo</strong><span>Quando o sistema não deve decidir sozinho, a conversa vai para uma pessoa por regra escrita, não por promessa.</span></li>
             </ul>
+            <p class="offer-price">Por hora ou por pacote, com teto de horas por semana</p>
+          </div>
+          <div class="offer-col">
+            <h3>Atendimento e automação para clínicas e escritórios</h3>
+            <p>Para quem atende pelo WhatsApp e sente o custo de cada mensagem sem resposta.</p>
+            <ul class="offer-list">
+              <li><strong>Assistente com os seus documentos</strong><span>Responde com base no que o seu negócio publicou, marca horário, faz follow-up e chama sua equipe quando não deve decidir sozinho.</span></li>
+              <li><strong>Os limites do seu conselho em código</strong><span>A IA de clínica não diagnostica nem prescreve; a de escritório não capta cliente. A regra está no sistema, não no treinamento.</span></li>
+              <li><strong>Relatório mensal</strong><span>O que foi atendido, o que foi passado para a equipe e quanto tempo isso devolveu, todo mês.</span></li>
+            </ul>
+            <p class="offer-price">Setup mais mensalidade por pacote</p>
           </div>
         </div>
+
+        <p class="offer-note">O que eu não faço: prometer resultado que o sistema não mede, e vender software a quem precisa de processo.</p>
       </div>
     </section>
 
@@ -244,7 +259,7 @@
       <div class="wrap">
         <div class="section-head">
           <h2 id="proj-titulo">Projetos</h2>
-          <p>Produtos que concebi, projetei e programei sozinho. Cada um responde a um problema de um tipo de negócio, e todos compartilham a mesma base técnica.</p>
+          <p>Produtos que concebi, projetei e programei sozinho, em produção ou em validação com cliente. Cada um responde a um problema de um tipo de negócio; todos compartilham a mesma base e a mesma disciplina.</p>
         </div>
 
         <!-- Sim2Next OS -->
@@ -257,26 +272,29 @@
             <div class="simos-cols">
               <div>
                 <h3 id="p-simos">Sim2Next OS</h3>
-                <p class="project-lede">Pequenos negócios perdem cliente por mensagem sem resposta e por retorno esquecido, e não têm equipe para operar ferramentas complexas.</p>
+                <p class="project-lede">Pequenos negócios perdem cliente por mensagem sem resposta e por retorno esquecido, e não têm equipe para operar ferramenta complexa.</p>
                 <div class="project-body">
-                  <p>Construí uma plataforma que recebe mensagens do WhatsApp, do chat no site, do e-mail e de apps integrados, identifica de qual negócio é cada conversa e responde com a base de conhecimento daquele cliente. Quando o agente não deve decidir sozinho, a conversa vai para o inbox da equipe.</p>
+                  <p>Uma plataforma que recebe WhatsApp, chat do site, e-mail e apps integrados, identifica o negócio de cada conversa, responde com a base de conhecimento daquele cliente e passa para a equipe quando não deve decidir sozinha. As decisões que importam:</p>
                   <ul class="highlights">
-                    <li>O agente sugere e o código decide: prazos de chamado, nota de lead e transbordo para humano seguem regra escrita, e a opinião da IA fica registrada à parte para ser medida depois.</li>
-                    <li>Um negócio nunca vê o outro. O isolamento é feito pela RLS do Postgres, linha a linha, e o painel entra no banco como o próprio usuário.</li>
-                    <li>CRM, cadências de follow-up com travas contra spam, automações com aprovação humana, backup e restauração documentados.</li>
+                    <li><strong>O código age, o LLM decide.</strong> Prazo de chamado, nota de lead e transbordo seguem regra escrita; a IA só classifica, e a opinião dela fica registrada à parte para ser medida.</li>
+                    <li><strong>Quem não sabe, cala.</strong> Sem trecho da base acima do corte, o agente nem chama o modelo: devolve a resposta que o negócio configurou. O corte é derivado do golden set de cada cliente, não de palpite.</li>
+                    <li><strong>A regulação em código.</strong> Pergunta clínica escala para gente antes de chegar ao modelo, e resposta com ato clínico é barrada na saída (CFM 2.454/2026). Escritório de advocacia só responde a quem procurou (OAB, Provimento 205).</li>
+                    <li><strong>Um negócio nunca vê o outro.</strong> Isolamento por RLS linha a linha; o painel entra no banco como o próprio usuário.</li>
                   </ul>
                 </div>
               </div>
               <dl class="facts-mini">
                 <div><dt>Modelos de agente</dt><dd>8</dd></div>
                 <div><dt>Canais</dt><dd>WhatsApp, site, e-mail, apps</dd></div>
-                <div><dt>Migrations versionadas</dt><dd>115</dd></div>
-                <div><dt>Arquivos de teste do motor</dt><dd>160</dd></div>
+                <div><dt>Migrations versionadas</dt><dd>117</dd></div>
+                <div><dt>Arquivos de teste</dt><dd>165 no motor, 123 no painel</dd></div>
+                <div><dt>Auditoria de segurança</dt><dd>out/2026, 0 críticos</dd></div>
+                <div><dt>Relatório de valor</dt><dd>mensal, por cliente, automático</dd></div>
                 <div><dt>Deploy</dt><dd>Docker, Caddy e Supabase</dd></div>
               </dl>
             </div>
             <ul class="stack" aria-label="Tecnologias">
-              <li>Python 3.12</li><li>FastAPI</li><li>Claude (Haiku e Sonnet)</li><li>Voyage AI</li><li>pgvector</li><li>Supabase</li><li>React</li><li>TypeScript</li><li>Docker</li><li>Z-API</li>
+              <li>Python 3.12</li><li>FastAPI</li><li>Claude (Haiku e Sonnet)</li><li>Voyage AI</li><li>pgvector</li><li>Supabase</li><li>React</li><li>TypeScript</li><li>Docker</li><li>Caddy</li><li>Z-API</li><li>API da Meta</li>
             </ul>
           </div>
         </article>
@@ -285,22 +303,22 @@
         <article class="project" aria-labelledby="p-sim2sym">
           <div>
             <div class="project-top">
-              <span class="badge">Em validação com profissionais</span>
-              <span class="project-kind">SaaS para saúde e fitness</span>
+              <span class="badge">Em validação paga com parceiro</span>
+              <span class="project-kind">SaaS para clínicas de estética e academias</span>
             </div>
             <h3 id="p-sim2sym">Sim2Sym</h3>
-            <p class="project-lede">Simulação visual da evolução corporal para clínicas, academias e profissionais de saúde.</p>
+            <p class="project-lede">Clínica de estética e academia vendem um resultado que o cliente não consegue imaginar, e a objeção dominante do setor é descrença.</p>
             <div class="project-body">
-              <p>A partir de uma foto e do protocolo do paciente (hipertrofia, recomposição ou cutting), o sistema gera estimativas visuais da evolução em etapas. É uma ferramenta de motivação e adesão ao tratamento, apresentada sem promessa de resultado.</p>
+              <p>A partir de uma foto e do protocolo (hipertrofia, recomposição ou cutting), o sistema gera a projeção visual em etapas, rotulada como ilustrativa, e depois a compara com a foto real do acompanhamento. As decisões que importam:</p>
               <ul class="highlights">
-                <li>Simulação única e em várias etapas, com comparação entre o simulado e o real ao longo do acompanhamento.</li>
-                <li>Portal do paciente, assinaturas com cota de simulações e cobrança recorrente.</li>
-                <li>Módulo LGPD completo, fotos em armazenamento privado com links temporários e suporte ligado ao Sim2Next OS.</li>
-                <li>24 Edge Functions, testes de isolamento no banco e deploy automático pelo CI.</li>
+                <li><strong>Estimador de gordura com intervalo.</strong> Quando não há medição, um ensemble de gradient boosting treinado no NHANES estima o percentual: erro médio de 2,55 pontos no holdout temporal, R² 0,87, intervalo Q90 calibrado, domínio de idade validado na API, versão congelada com manifesto e testes de regressão. A medição real sempre prevalece.</li>
+                <li><strong>Simulado × real.</strong> Cada marco guarda a foto e a medida reais. É o dado que calibra o produto e que nenhum concorrente tem.</li>
+                <li><strong>Imagem com regra.</strong> Prompt endurecido a partir de defeitos observados em produção, sem promessa de resultado, com consentimento específico e eliminação técnica no fornecedor.</li>
+                <li>21 Edge Functions, testes de isolamento e de escalada de privilégio no banco, deploy automático pelo CI.</li>
               </ul>
             </div>
             <ul class="stack" aria-label="Tecnologias">
-              <li>React</li><li>TypeScript</li><li>Vite</li><li>Supabase</li><li>Deno</li><li>fal.ai</li><li>Asaas</li><li>Sentry</li><li>Vercel</li>
+              <li>React</li><li>TypeScript</li><li>Vite</li><li>Supabase</li><li>Deno</li><li>fal.ai</li><li>CatBoost</li><li>FastAPI</li><li>Asaas</li><li>Sentry</li><li>Vercel</li>
             </ul>
           </div>
           <figure class="project-media">
@@ -319,10 +337,10 @@
             <h3 id="p-inksim">InkSim</h3>
             <p class="project-lede">Da prévia da tatuagem ao sinal pago.</p>
             <div class="project-body">
-              <p>Começou como simulador de tatuagem na pele. Quando percebi que prévia tinha virado commodity, reposicionei o produto: a simulação passou a ser o momento de decisão dentro de um orçamento que termina com o sinal pago por Pix. O que o dono do estúdio compra é horário preenchido e cliente que não some.</p>
+              <p>Prévia de tatuagem virou commodity; o que o estúdio compra é horário preenchido e cliente que não some. Por isso a simulação passou a ser o momento de decisão dentro de um orçamento que termina com o sinal pago por Pix e com o termo de autorização de imagem assinado digitalmente.</p>
               <ul class="highlights">
-                <li>Prévia na pele, cover-up e vários ângulos a partir de uma foto e da arte.</li>
-                <li>Link de orçamento pronto para o WhatsApp, com proposta, prévia e botão de pagamento do sinal.</li>
+                <li><strong>Assinatura reforçada.</strong> CPF, data de nascimento e hash sobre o conteúdo canônico; menores bloqueados por restrição no banco; aceite vinculado ao hash da arte, imutável depois.</li>
+                <li>Prévia na pele, cover-up e vários ângulos a partir de uma foto e da arte, num link de orçamento pronto para o WhatsApp.</li>
                 <li>Agenda, página pública do estúdio, métricas e expurgo automático de fotos pela política de retenção.</li>
               </ul>
             </div>
@@ -350,10 +368,11 @@
             <h3 id="p-personalsim">PersonalSim</h3>
             <p class="project-lede">Composição corporal com prova.</p>
             <div class="project-body">
-              <p>O mercado tem app de treino e app de avaliação física, mas nenhum liga a promessa feita no primeiro dia ao resultado da semana 12. A PersonalSim fecha esse circuito: o programa de treino sabe qual simulação está cumprindo, e cada marco guarda a medida e a foto que servem de evidência.</p>
+              <p>O mercado tem app de treino e app de avaliação física, mas nenhum liga a promessa feita no primeiro dia ao resultado da semana 12. A PersonalSim fecha esse circuito: o programa de treino sabe qual projeção está cumprindo, e cada marco guarda a medida e a foto que servem de evidência. A projeção vive dentro da ficha do aluno, atada a avaliação e adesão.</p>
               <ul class="highlights">
-                <li>95 migrations testadas no CI contra um Postgres limpo e reaplicadas sobre dados existentes, para que nenhuma apague o que já está lá.</li>
-                <li>38 suítes de teste em SQL que verificam o efeito no dado com o papel certo, já que a RLS bloqueia em silêncio.</li>
+                <li><strong>Cadastro por convite gravado só pelo servidor.</strong> Nenhum dado vindo do cliente decide papel ou tenant.</li>
+                <li><strong>Plano e cobrança só mudam pelo servidor.</strong> Um gatilho no banco recusa a alteração pela sessão do usuário, com erro visível.</li>
+                <li>101 migrations reaplicadas sobre dados semeados no CI: migration que apaga ou reescreve linha existente reprova. 42 suítes de teste em SQL conferem o efeito no dado com o papel certo, porque a RLS bloqueia em silêncio.</li>
                 <li>Catracas de qualidade no CI: a dívida que existe não reprova, piorar reprova.</li>
               </ul>
             </div>
@@ -376,10 +395,44 @@
           </div>
         </article>
 
+        <!-- MicroApp Factory -->
+        <article class="project project-full" aria-labelledby="p-factory">
+          <div>
+            <div class="project-top">
+              <span class="badge">Catálogo pronto, entrada em ondas</span>
+              <span class="project-kind">Plataforma de micro aplicações para nichos</span>
+            </div>
+            <div class="simos-cols">
+              <div>
+                <h3 id="p-factory">MicroApp Factory</h3>
+                <p class="project-lede">Calculadoras, simuladores e geradores de documento para nichos (confeitaria, eletricista, advocacia, síndico, motorista de app) valem pouco um a um e muito como catálogo.</p>
+                <div class="project-body">
+                  <p>Uma plataforma onde cada micro aplicação é configuração executada por motores reutilizáveis, com landing, demonstração, compra pela Hotmart e acesso liberado por webhook. As decisões que importam:</p>
+                  <ul class="highlights">
+                    <li><strong>Um plano por título.</strong> Cada um dos 109 títulos tem plano individual de desenvolvimento e lançamento, com fonte primária como gate: título tributário ou jurídico não sai sem revisão de contador ou advogado.</li>
+                    <li><strong>Catraca de tipos.</strong> A contagem de <code>as any</code> só pode cair, e nenhum placeholder entra sem dono.</li>
+                    <li><strong>Entrada em ondas de dez títulos</strong>, por parceiro de curso, enquanto os demais seguem em desenvolvimento.</li>
+                  </ul>
+                </div>
+              </div>
+              <dl class="facts-mini">
+                <div><dt>Títulos com plano</dt><dd>109</dd></div>
+                <div><dt>Motores</dt><dd>calculadora e gerador de documentos</dd></div>
+                <div><dt>Testes unitários</dt><dd>2.201</dd></div>
+                <div><dt>Asserções pgTAP</dt><dd>342</dd></div>
+                <div><dt>Venda</dt><dd>Hotmart, acesso por webhook</dd></div>
+              </dl>
+            </div>
+            <ul class="stack" aria-label="Tecnologias">
+              <li>React 18</li><li>TypeScript</li><li>Vite</li><li>Tailwind CSS</li><li>Supabase</li><li>Deno</li><li>Vitest</li><li>pgTAP</li><li>Vercel</li><li>Hotmart</li>
+            </ul>
+          </div>
+        </article>
+
         <div class="compact-grid">
           <article class="compact" aria-labelledby="p-foundation">
             <h3 id="p-foundation">SaaS Foundation</h3>
-            <p>A base que eu não reescrevo. Autenticação, isolamento por cliente com RLS, três perfis de acesso, assinatura com cota consumida de forma atômica, suporte com triagem por IA, LGPD e auditoria. Extraí dos produtos acima para que cada novo SaaS comece pelo diferencial, não pela quinta tela de login.</p>
+            <p>A base que eu não reescrevo. Autenticação, isolamento por cliente com RLS, três perfis de acesso, assinatura com cota consumida de forma atômica, suporte com triagem por IA, LGPD e auditoria. Extraída dos produtos acima para que cada novo SaaS comece pelo diferencial, e endurecida pela auditoria de out/2026: cadastro por convite gravado pelo servidor, gates de segredo e de dependência no CI.</p>
             <ul class="stack" aria-label="Tecnologias"><li>React</li><li>TanStack Query</li><li>Supabase</li><li>pgTAP</li></ul>
           </article>
 
@@ -407,34 +460,45 @@
       </div>
     </section>
 
+    <!-- Segurança e LGPD -->
+    <section class="section" id="seguranca" aria-labelledby="seg-titulo">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="seg-titulo">Segurança e LGPD como método</h2>
+          <p>Em outubro de 2026 revisei a segurança dos cinco produtos com o mesmo roteiro: código, histórico do git, dependências, CI e banco. Em quatro deles, qualquer pessoa conseguia se cadastrar como administrador; em dois, havia chave de serviço no histórico ou no cron; em três, o gatilho que protegia papéis estava desligado por um detalhe do Postgres que quase ninguém conhece. Todos foram corrigidos com migration idempotente e teste pgTAP que prova a falha e a correção. O roteiro virou serviço: é a <a href="#servicos">revisão de segurança</a> acima.</p>
+        </div>
+      </div>
+    </section>
+
     <!-- Fundamentos -->
     <section class="section" aria-labelledby="fund-titulo">
       <div class="wrap">
         <div class="section-head">
           <h2 id="fund-titulo">Fundamentos em IA e dados</h2>
-          <p>Antes dos produtos, vieram anos de estudo em aprendizado de máquina, visão computacional, busca e aprendizado por reforço. Estes projetos públicos mostram a base.</p>
+          <p>Antes dos produtos, vieram anos de estudo em aprendizado de máquina, visão computacional, busca e aprendizado por reforço. Estes projetos públicos mostram a base, com o que cada um me ensinou.</p>
         </div>
 
         <ul class="repo-list">
-          <li><span class="repo-year">2024</span><div><a href="https://github.com/carl-santos/weapon_detection">Detecção de armas em imagens</a><p>Detecção de objetos com YOLOv8 e OpenCV, com conversão de anotações para treino.</p></div></li>
-          <li><span class="repo-year">2023</span><div><a href="https://github.com/carl-santos/forecast_of_the_value_of_Petrobras_shares">Previsão de ações da Petrobras</a><p>Análise exploratória e modelos de previsão com dados de mercado e scikit-learn.</p></div></li>
-          <li><span class="repo-year">2021</span><div><a href="https://github.com/carl-santos/Build_an_Adversarial_Game_Playing_Agent">Agente para jogo adversarial</a><p>Busca adversarial para escolher jogadas contra um oponente.</p></div></li>
-          <li><span class="repo-year">2021</span><div><a href="https://github.com/carl-santos/classical_planning">Planejamento clássico</a><p>Planejamento automatizado com grafos de planejamento e heurísticas de busca.</p></div></li>
+          <li><span class="repo-year">2024</span><div><a href="https://github.com/carl-santos/weapon_detection">Detecção de armas em imagens</a><p>YOLOv8 treinado do zero em 1.300 imagens, early stopping na época 231, mAP50 0,67, pior classe identificada pela matriz de confusão. A lição: com dado pequeno, transferência vale mais que épocas.</p></div></li>
+          <li><span class="repo-year">2023</span><div><a href="https://github.com/carl-santos/forecast_of_the_value_of_Petrobras_shares">Previsão de ações da Petrobras</a><p>Série temporal e LSTM empilhada em PyTorch com dropout; normalização só com estatísticas do treino. A lição: antes do modelo, a baseline ingênua.</p></div></li>
+          <li><span class="repo-year">2021</span><div><a href="https://github.com/carl-santos/Build_an_Adversarial_Game_Playing_Agent">Agente para jogo adversarial</a><p>Busca adversarial com poda e heurísticas de avaliação. É de onde vem "o código age, o LLM decide".</p></div></li>
+          <li><span class="repo-year">2021</span><div><a href="https://github.com/carl-santos/classical_planning">Planejamento clássico</a><p>Grafos de planejamento e heurísticas de busca, com comparação de custo entre estratégias.</p></div></li>
           <li><span class="repo-year">2021</span><div><a href="https://github.com/carl-santos/Sudoku_Solver">Resolvedor de Sudoku</a><p>Propagação de restrições combinada com busca.</p></div></li>
-          <li><span class="repo-year">2020</span><div><a href="https://github.com/carl-santos/train_a_quadcopter-_how_to-_fly">Quadricóptero que aprende a voar</a><p>Agente de aprendizado por reforço treinado em um simulador físico.</p></div></li>
-          <li><span class="repo-year">2020</span><div><a href="https://github.com/carl-santos/heart_disease">Previsão de doença cardíaca</a><p>Projeto final do nanodegree de Machine Learning com o conjunto UCI.</p></div></li>
-          <li><span class="repo-year">2020</span><div><a href="https://github.com/carl-santos/POI_detection">Pessoas de interesse no caso Enron</a><p>Classificação a partir de e-mails e dados financeiros de executivos.</p></div></li>
-          <li><span class="repo-year">2020</span><div><a href="https://github.com/carl-santos/customers_segments">Segmentação de clientes</a><p>Redução de dimensionalidade com PCA e clusterização.</p></div></li>
+          <li><span class="repo-year">2020</span><div><a href="https://github.com/carl-santos/train_a_quadcopter-_how_to-_fly">Quadricóptero que aprende a voar</a><p>DDPG com ator-crítico e replay; a convergência veio da função de recompensa, não da rede.</p></div></li>
+          <li><span class="repo-year">2020</span><div><a href="https://github.com/carl-santos/heart_disease">Previsão de doença cardíaca</a><p>Métrica escolhida antes do algoritmo, validação cruzada e comparação de modelos no conjunto UCI.</p></div></li>
+          <li><span class="repo-year">2020</span><div><a href="https://github.com/carl-santos/POI_detection">Pessoas de interesse no caso Enron</a><p>Classe rara em e-mails e dados financeiros: seleção de atributos, precisão e recall em vez de acurácia.</p></div></li>
+          <li><span class="repo-year">2020</span><div><a href="https://github.com/carl-santos/customers_segments">Segmentação de clientes</a><p>PCA e clusterização, com a leitura de negócio de cada segmento.</p></div></li>
+          <li><span class="repo-year">2020</span><div><a href="https://github.com/carl-santos/boston_housing">Preço de imóveis em Boston</a><p>Regressão com busca de hiperparâmetros e curvas de complexidade: viés e variância na prática.</p></div></li>
           <li><span class="repo-year">2020</span><div><a href="https://github.com/carl-santos/A-B_test">Análise de teste A/B</a><p>Inferência estatística e regressão para decidir entre duas versões de página.</p></div></li>
         </ul>
 
         <div class="skills">
-          <div><h3>IA e dados</h3><p>Claude API, OpenAI, Voyage AI, RAG com pgvector, avaliação de agentes, scikit-learn, PyTorch, OpenCV, YOLO, spaCy, BERT, pandas.</p></div>
-          <div><h3>Back-end e banco</h3><p>Python, FastAPI, Pydantic, TypeScript, Edge Functions em Deno, PostgreSQL, Supabase, Row Level Security, pgTAP.</p></div>
-          <div><h3>Front-end</h3><p>React, Next.js, Vite, Tailwind CSS, TanStack Query, shadcn/ui, testes com Vitest e Playwright.</p></div>
-          <div><h3>Infraestrutura</h3><p>Docker, Kubernetes, Caddy, Vercel, GitHub Actions, Sentry, runbooks de deploy e restauração.</p></div>
-          <div><h3>Automação e integrações</h3><p>n8n, WhatsApp via Z-API, pagamentos com Asaas e Pix, e-mail transacional, Google Agenda.</p></div>
-          <div><h3>Conformidade</h3><p>LGPD aplicada ao produto: consentimento, direitos do titular, retenção, anonimização e trilha de auditoria.</p></div>
+          <div><h3>IA aplicada</h3><p>Claude API, OpenAI, Voyage AI, RAG com pgvector e reranker, avaliação de agentes com golden set, guardrails em código, modelos de imagem (fal.ai), CatBoost, scikit-learn, PyTorch, YOLO, OpenCV.</p></div>
+          <div><h3>Back-end e banco</h3><p>Python, FastAPI, Pydantic, TypeScript, Edge Functions em Deno, PostgreSQL, Supabase, Row Level Security, pgTAP, migrations idempotentes.</p></div>
+          <div><h3>Front-end</h3><p>React, Next.js, Vite, Tailwind CSS, TanStack Query, shadcn/ui, Vitest, Playwright.</p></div>
+          <div><h3>Infraestrutura e operação</h3><p>Docker, Caddy, Vercel, GitHub Actions, gitleaks, Sentry, sentinelas, runbooks de deploy e restauração.</p></div>
+          <div><h3>Integrações</h3><p>WhatsApp (Z-API e API da Meta), Asaas e Pix, Hotmart, e-mail transacional, Google Agenda, n8n.</p></div>
+          <div><h3>Segurança e conformidade</h3><p>Revisão de código e configuração, RLS e isolamento entre clientes, segredos e cadeia de suprimentos, LGPD aplicada ao produto (consentimento específico, direitos do titular, retenção, anonimização, transferência internacional, trilha de auditoria), regulação setorial em código (CFM, OAB, CFN, CDC).</p></div>
         </div>
       </div>
     </section>
@@ -444,7 +508,7 @@
       <div class="wrap">
         <div class="section-head">
           <h2 id="traj-titulo">Trajetória</h2>
-          <p>Duas linhas correndo em paralelo: uma carreira no serviço público que me ensinou precisão e responsabilidade, e uma formação em tecnologia que hoje virou produto.</p>
+          <p>Três setores antes da tecnologia, e cada um virou uma decisão de produto. A formação em IA correu em paralelo desde 2018 e hoje é o que entrego.</p>
         </div>
 
         <div class="lanes" role="table" aria-label="Trajetória por ano">
@@ -457,7 +521,7 @@
           <div class="lane-row" role="row">
             <span class="lane-year" role="cell">2025–2026</span>
             <span class="lane-cont" role="cell">Técnico Judiciário no TRT 9, desde 2012</span>
-            <div class="lane-item" role="cell"><span class="lane-label">Tecnologia</span><strong>Produtos SaaS com agentes de IA</strong><span class="where">Sim2Next OS em piloto, Sim2Sym em validação</span><p>Certificações em IA Generativa e LLMOps (Udacity) e a construção dos produtos desta página.</p></div>
+            <div class="lane-item" role="cell"><span class="lane-label">Tecnologia</span><strong>Engenheiro de IA aplicada e fundador, Sim2Next</strong><span class="where">Sim2Next OS em piloto, Sim2Sym em validação paga</span><p>Cinco produtos sobre uma base comum, auditoria de segurança da frota em out/2026 e certificações em IA Generativa e LLMOps (Udacity).</p></div>
           </div>
 
           <div class="lane-row" role="row">
@@ -480,19 +544,19 @@
 
           <div class="lane-row" role="row">
             <span class="lane-year" role="cell">2012–hoje</span>
-            <div class="lane-item" role="cell"><span class="lane-label">Carreira</span><strong>Técnico Judiciário</strong><span class="where">Tribunal Regional do Trabalho da 9ª Região</span><p>Andamento de processos, atendimento ao público, ofícios, certidões e minutas, assessoria aos juízes nas audiências, cálculos processuais e conferência de cálculos periciais, alimentação dos sistemas de gestão e estatística.</p></div>
+            <div class="lane-item" role="cell"><span class="lane-label">Carreira</span><strong>Técnico Judiciário</strong><span class="where">Tribunal Regional do Trabalho da 9ª Região</span><p>Cálculos processuais e conferência de cálculos periciais, minutas, certidões, assessoria aos juízes nas audiências, atendimento ao público e estatística. Daqui vem a regra de que todo número tem fonte e data, que documento gerado por regra precisa de revisão de especialista, e que prazo tem relógio que para e volta.</p></div>
             <span class="lane-empty" role="cell" aria-hidden="true"></span>
           </div>
 
           <div class="lane-row" role="row">
             <span class="lane-year" role="cell">2007–2012</span>
-            <div class="lane-item" role="cell"><span class="lane-label">Carreira</span><strong>Agente penitenciário</strong><span class="where">Secretaria de Estado da Justiça e Cidadania de Santa Catarina, Porto União</span><p>Recebimento, triagem, registro e escolta de pessoas presas, garantia de direitos individuais e atendimento a familiares e agentes da justiça.</p></div>
+            <div class="lane-item" role="cell"><span class="lane-label">Carreira</span><strong>Agente penitenciário</strong><span class="where">Secretaria de Estado da Justiça e Cidadania de Santa Catarina, Porto União</span><p>Triagem, registro, custódia e escolta de pessoas presas, garantia de direitos individuais e atendimento a familiares e agentes da justiça. Daqui vem segurança como processo: fail-closed, trilha de auditoria e runbook para a crise.</p></div>
             <span class="lane-empty" role="cell" aria-hidden="true"></span>
           </div>
 
           <div class="lane-row" role="row">
             <span class="lane-year" role="cell">2004–2006</span>
-            <div class="lane-item" role="cell"><span class="lane-label">Carreira</span><strong>Vendedor externo autônomo</strong><span class="where">União da Vitória e região</span><p>Vendas para empresas de estética e de telecomunicações, com foco em planos corporativos de telefonia como agente autorizado da Brasil Telecom.</p></div>
+            <div class="lane-item" role="cell"><span class="lane-label">Carreira</span><strong>Vendedor externo autônomo</strong><span class="where">União da Vitória e região</span><p>Planos corporativos de telefonia para clínicas de estética e empresas da região, como agente autorizado da Brasil Telecom. Daqui vem saber que clínica compra fechamento, não software, e que a objeção se descobre antes de construir.</p></div>
             <span class="lane-empty" role="cell" aria-hidden="true"></span>
           </div>
         </div>
@@ -634,8 +698,8 @@
     <!-- Contato -->
     <section class="contact" id="contato" aria-labelledby="contato-titulo">
       <div class="wrap">
-        <h2 id="contato-titulo">Tem um processo que consome horas da sua equipe, ou uma vaga em que esse perfil faz sentido?</h2>
-        <p class="contact-lede">Me conte o contexto. Respondo com uma conversa objetiva sobre o que dá para fazer, quanto custa e em quanto tempo.</p>
+        <h2 id="contato-titulo">Tem um produto em Supabase que precisa de segurança, um sistema de IA que precisa funcionar de verdade, ou um atendimento que perde cliente?</h2>
+        <p class="contact-lede">Me conte o contexto. Respondo com uma conversa objetiva sobre o que dá para fazer, quanto custa e em quanto tempo. Atendo em horário combinado, com escopo e prazo fechados antes de começar.</p>
         <div class="contact-links">
           <a class="btn btn-primary" href="mailto:cal.santos@yahoo.com.br">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
