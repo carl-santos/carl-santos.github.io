@@ -229,6 +229,7 @@ p:last-child { margin-bottom: 0; }
 .offer-tres { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .offer-col > .offer-price { margin: 18px 0 0; padding-top: 14px; border-top: 1px solid var(--rule); color: var(--ink); font-size: 0.92rem; }
 .offer-note { margin-top: clamp(24px, 3vw, 36px); color: var(--muted); max-width: 44rem; }
+.offer-col > .offer-link { margin: 12px 0 0; font-size: 0.95rem; }
 @media (max-width: 1000px) { .offer-tres { grid-template-columns: 1fr; } }
 
 /* ---------- Projetos ---------- */
